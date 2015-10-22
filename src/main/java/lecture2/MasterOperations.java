@@ -13,7 +13,6 @@ public class MasterOperations{
 
 
     addition.count();
-    addition.count();
     multiplication.count();
     substraction.count();
 
