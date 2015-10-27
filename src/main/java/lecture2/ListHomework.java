@@ -1,5 +1,6 @@
 package lecture2;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 
@@ -29,6 +30,18 @@ public  class ListHomework {
         System.out.println("Размер списка = " + stringLength);
         System.out.println("Третий элемент списка = " + stringElement);
 
+        for (i = 0; i<stringList.size(); i++){
+
+            System.out.println("элемент массива arraylist " + stringList.get(i));
+
+        }
+
+        Integer arr[]={2,6,9,4,6,0,7,3,21,};
+
+        for (i = 0; i<arr.length; i++){
+
+            System.out.println(i+1 +" элемент массива " + arr[i]);
+        }
 
     }
 
