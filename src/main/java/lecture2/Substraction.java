@@ -8,6 +8,6 @@ String someString;
 
     }
     public void count() {
-        System.out.println("substraction" + someString);
+//        System.out.println("substraction" + someString);
     }
 }

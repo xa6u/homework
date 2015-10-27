@@ -6,9 +6,9 @@ public class Multiplication extends Count {
 
     Multiplication(int firstMultiplicator, int secondMultiplicator){
 
-        multiplicationResult = firstMultiplicator * secondMultiplicator;
+//        multiplicationResult = firstMultiplicator * secondMultiplicator;
     }
     public void count() {
-        System.out.println("multiplication result " + multiplicationResult);
+//        System.out.println("multiplication result " + multiplicationResult);
     }
 }

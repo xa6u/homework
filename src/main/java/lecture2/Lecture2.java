@@ -22,7 +22,11 @@ public class Lecture2 {
 
     public static List<Count> createUser(List<Count> list) {
         list = new ArrayList<Count>();
+<<<<<<< Updated upstream
         list.add(new Addition(12));
+=======
+//        list.add(new Addition());
+>>>>>>> Stashed changes
         return list;
 
     }

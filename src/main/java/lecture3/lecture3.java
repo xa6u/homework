@@ -9,19 +9,19 @@ public class lecture3 {
     public static void main(String[] args) {
 
         String[] arr = {"hello", "world"};
-        Addition[] add = {new Addition(), new Addition()};
+//        Addition[] add = {new Addition(), new Addition()};
 
         List<String> list = new ArrayList<String>();
         list.add("hello");
         list.add("world");
 //        System.out.println(list.size());
 
-        Addition addition = new Addition();
+//        Addition addition = new Addition();
 //        System.out.println(addition.hashCode());
 
         Set<Addition> set = new HashSet<Addition>();
-        set.add(new Addition());
-        set.add(new Addition());
+//        set.add(new Addition());
+//        set.add(new Addition());
 //        System.out.println(set.size());
 
         Map<String, String> mapa = new HashMap<String, String>();

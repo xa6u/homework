@@ -1,6 +1,6 @@
 package lecture1;
 
-public class Kreslo extends Stul {
+public class Kreslo {// extends Stul {
 
     public void relax() {
         System.out.println("расслабляемся");

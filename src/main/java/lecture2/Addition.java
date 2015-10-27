@@ -9,7 +9,7 @@ public class Addition extends Count {
     }
 
     public void count() {
-        System.out.println("addition of " + someNumber);
+//        System.out.println("addition of " + someNumber);
     }
 
     @Override
