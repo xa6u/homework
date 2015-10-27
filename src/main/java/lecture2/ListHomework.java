@@ -29,12 +29,14 @@ public  class ListHomework {
         stringElement = stringList.get(3);
         System.out.println("Размер списка = " + stringLength);
         System.out.println("Третий элемент списка = " + stringElement);
-
+        System.out.println("\n");
+        
         for (i = 0; i<stringList.size(); i++){
 
-            System.out.println("элемент массива arraylist " + stringList.get(i));
+            System.out.println(i + 1 +" элемент массива arraylist " + stringList.get(i));
 
         }
+        System.out.println("\n");
 
         Integer arr[]={2,6,9,4,6,0,7,3,21,};
 
