@@ -4,21 +4,31 @@ import java.util.ArrayList;
 
 public class ListHomework {
 
-    int final  = 10;
-    int a;
+    public static void main(String[] args){
+
+    }
+
+    final int CONST = 5;
     int stringLength;
-
-   ArrayList<String> stringList = new ArrayList<String>() {
-
-       stringLength = stringList.size();
-
-    for (i = 0; i < stringLength; i++ )  {
-
-           stringList.add("FirstElement" + i);
-
-       }
+    String stringElement;
+    int i;
 
 
-   }
+    ArrayList <String> stringList = new ArrayList<String>(); {
+
+        for (i = 0; i < CONST; i++ ){
+
+            stringList.add("FirstElement" + i);
+        }
+
+
+        stringLength = stringList.size();
+        stringElement = stringList.get(3);
+        System.out.println("Размер списка = " + stringLength);
+        System.out.println("Третий элемент списка = " + stringElement);
+
+    }
+
 
 }
+
