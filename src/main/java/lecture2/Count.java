@@ -1,7 +1,11 @@
 package lecture2;
 
-public interface Count {
+public abstract class Count {
 
-    public void count();
+    public Count(){
+
+    }
+
+    public abstract void count();
 
 }

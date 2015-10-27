@@ -1,10 +1,13 @@
 package lecture2;
 
-public class Addition implements Count {
+public class Addition extends Count {
+
+    int someNumber = 0;
 
     Addition(int someNuber){
 
     }
+
     public void count() {
         System.out.println("addition of " + someNumber);
     }

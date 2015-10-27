@@ -12,9 +12,9 @@ public class MasterOperations{
     Substraction substraction = new Substraction("some string");
 
 
-    addition.count();
+   /* addition.count();
     multiplication.count();
-    substraction.count();
+    substraction.count();*/
 
 
 }

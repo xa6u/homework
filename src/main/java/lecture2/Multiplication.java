@@ -1,6 +1,8 @@
 package lecture2;
 
-public class Multiplication implements Count {
+public class Multiplication extends Count {
+
+    float multiplicationResult;
 
     Multiplication(int firstMultiplicator, int secondMultiplicator){
 

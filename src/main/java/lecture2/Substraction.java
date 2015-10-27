@@ -1,6 +1,8 @@
 package lecture2;
 
-public class Substraction implements Count {
+public class Substraction extends Count {
+
+String someString;
 
     Substraction(String someString){
 

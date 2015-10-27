@@ -22,7 +22,7 @@ public class Lecture2 {
 
     public static List<Count> createUser(List<Count> list) {
         list = new ArrayList<Count>();
-        list.add(new Addition());
+        list.add(new Addition(12));
         return list;
 
     }

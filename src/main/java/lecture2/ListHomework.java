@@ -27,13 +27,13 @@ public  class ListHomework {
 
         stringLength = stringList.size();
         stringElement = stringList.get(3);
-        System.out.println("Размер списка = " + stringLength);
-        System.out.println("Третий элемент списка = " + stringElement);
+        System.out.println("List size = " + stringLength);
+        System.out.println("Third element of the list = " + stringElement);
         System.out.println("\n");
-        
-        for (i = 0; i<stringList.size(); i++){
 
-            System.out.println(i + 1 +" элемент массива arraylist " + stringList.get(i));
+        for ( String listVar : stringList ){
+
+            System.out.println("Array element arraylist " + listVar);
 
         }
         System.out.println("\n");
@@ -42,7 +42,7 @@ public  class ListHomework {
 
         for (i = 0; i<arr.length; i++){
 
-            System.out.println(i+1 +" элемент массива " + arr[i]);
+            System.out.println(i+1 +" array element " + arr[i]);
         }
 
     }
