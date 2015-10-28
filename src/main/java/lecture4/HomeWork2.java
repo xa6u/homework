@@ -14,7 +14,7 @@ public class HomeWork2 {
         List<String> list = new ArrayList<>();
         list.add("one");
         list.add("two");
-        list.add("three");
+        list.add("three");  
         list.add("two");
         list.add("one");
 
