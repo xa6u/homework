@@ -9,7 +9,7 @@ public class HomeWork2 {
 
     public static void main(String args[]) {
         int i;
-        int persAge;
+        Person persAge;
 
         List<String> list = new ArrayList<>();
         list.add("one");
@@ -24,7 +24,7 @@ public class HomeWork2 {
             stringRes.append(s);
         }
 
-        System.out.println("Concatenated string = " + stringRes.toString());
+        System.out.println("Concatenated string = " + stringRes);
 
         Person person = new Person(12,"Dave");
         Person person1 = new Person(25,"John");
@@ -40,9 +40,9 @@ public class HomeWork2 {
 
 
             for (i=0; i<persList.size();i++){
-                persAge = persList.get(i).age;
-                    if (persAge > 25){
-                        System.out.println("persList = " + persList.get(i).name);
+               persAge = persList.get(i);
+                    if (persAge.age > 25){
+                        System.out.println("persList = " + persAge.name);
                     }
 
             }
