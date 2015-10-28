@@ -20,7 +20,7 @@ public class Lecture2 {
 
     }
 
-    public static List<Count> createUser(List<Count> list) {
+   /* public static List<Count> createUser(List<Count> list) {
         list = new ArrayList<Count>();
 <<<<<<< Updated upstream
         list.add(new Addition(12));
@@ -29,7 +29,7 @@ public class Lecture2 {
 >>>>>>> Stashed changes
         return list;
 
-    }
+    }*/
 
     // private > default > protected > public
 

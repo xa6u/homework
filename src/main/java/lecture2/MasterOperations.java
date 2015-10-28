@@ -12,15 +12,15 @@ public class MasterOperations{
     Substraction substraction = new Substraction("some string");
 
 
-<<<<<<< Updated upstream
+
    /* addition.count();
     multiplication.count();
     substraction.count();*/
-=======
+
 //    addition.count();
 //    multiplication.count();
 //    substraction.count();
->>>>>>> Stashed changes
+
 
 
 }
