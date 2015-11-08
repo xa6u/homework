@@ -1,4 +1,4 @@
-package lecture6;
+/*package lecture6;
 
 import static org.junit.Assert.*;
 
@@ -76,3 +76,4 @@ public class WebDriverTest {
 
 }
 
+*/
