@@ -30,7 +30,8 @@ public class ParamsTest {
     public static Collection<Object[]> generateData() {
         return Arrays.asList(new Object[][] {
             {"Cheese", "hello"},
-            {"Apple", "apple"}
+            {"Apple", "apple"},
+            {"null", "apple"}
         });
     }
 
