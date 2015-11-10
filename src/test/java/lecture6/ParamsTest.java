@@ -1,4 +1,4 @@
-/*package lecture6;
+package lecture6;
 
 import com.codeborne.selenide.ElementsCollection;
 import org.junit.Test;
@@ -43,4 +43,3 @@ public class ParamsTest {
         assertFalse(collection.isEmpty());
     }
 }
-*/

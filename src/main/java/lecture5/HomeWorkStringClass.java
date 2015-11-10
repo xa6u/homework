@@ -9,7 +9,7 @@ public class HomeWorkStringClass {
     }
 
     public static boolean emptyStringCheck(String str){
-        if (str == ""){
+        if (str == null){
             return false;
         }
         return true;
